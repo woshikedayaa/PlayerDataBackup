@@ -1,12 +1,15 @@
+from mcdreforged.api.types import CommandSource
+from mcdreforged.api.all import *
 
-def data_backer():
+def data_backer(source :CommandSource,ctx:CommandContext):
     pass
 
-def list_slots():
+def list_slots(source :CommandSource,ctx:CommandContext):
     pass
 
-def del_slot():
+def del_slot(source :CommandSource,ctx:CommandContext):
     pass
 
-def save_backup():
+@new_thread("player_data_bcakup")
+def save_backup(source :CommandSource,ctx:CommandContext):
     pass
