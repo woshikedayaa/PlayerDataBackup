@@ -1,0 +1,11 @@
+{
+    "id": "player_data_backup",
+    "version": "1.0",
+    "name": "PlayerCommandPlus",
+    "description": "A MCDR plugin to save and rollback playerdata",
+    "author": "woshikedayaa",
+    "link": "https://github.com/woshikedayaa/PlayerDataBackup",
+    "dependencies": {
+       "mcdreforged": ">=2.6"
+    }
+}
